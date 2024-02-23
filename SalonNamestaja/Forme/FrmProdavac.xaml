@@ -1,0 +1,25 @@
+﻿<Window x:Class="SalonNamestaja.Forme.FrmProdavac"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SalonNamestaja.Forme"
+        mc:Ignorable="d"
+        Title="Dodaj/Izmeni" Height="320" Width="300">
+    <Grid>
+        <Label Content="Ime prodavca:" HorizontalAlignment="Left" Margin="30,20,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtImeProdavca" HorizontalAlignment="Left" Height="23" Margin="140,24,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Prezime prodavca:" HorizontalAlignment="Left" Margin="30,60,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPrezimeProdavca" HorizontalAlignment="Left" Height="23" Margin="140,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="JMBG Prodavca:" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtJMBGProdavca" HorizontalAlignment="Left" Height="23" Margin="140,104,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Kontakt prodavca:" HorizontalAlignment="Left" Margin="30,140,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtKontaktProdavca" HorizontalAlignment="Left" Height="23" Margin="140,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <Button x:Name="btnSacuvaj" Content="Sačuvaj" HorizontalAlignment="Left" Margin="30,240,0,0" VerticalAlignment="Top" Width="75" Click="btnSacuvaj_Click"/>
+        <Button x:Name="btnOtkazi" Content="Otkaži" HorizontalAlignment="Left" Margin="180, 240,0,0" VerticalAlignment="Top" Width="75" Click="btnOtkazi_Click"/>
+    </Grid>
+</Window>
